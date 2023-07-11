@@ -10,16 +10,16 @@ body {
 
 .btn-primary {
     border-radius: 5px;
-    background: #FD6E0A;
+    background: #E55473;
     border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 500;
     padding: 15px 35px;
 }
 
 .section-title {
-    color: #181818;
+    color: #272727;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
@@ -32,30 +32,36 @@ body {
 }
 
 /* Section-1 related styles */
+.section-1 {
+    background-color: #E554731A;
+}
+
 .banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .banner-content {
     max-width: 500px;
 }
 
-.banner .profile-pic {
-    width: 500px;
-}
-
-.banner-greeting {
-    font-size: 45px;
-    color: #474747;
-    margin-bottom: 0;
+.banner .banner-pic {
+    width: 450px;
 }
 
 .banner-title {
-    font-size: 85px;
-    font-weight: 700;
+    color: #272727;
+    font-size: 50px;
+    font-weight: 795;
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.banner-description {
+    font-size: 13px;
+    font-weight: 385;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 25px;
 }
