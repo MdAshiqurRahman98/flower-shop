@@ -69,16 +69,6 @@ body {
     margin-bottom: 25px;
 }
 
-/* main section styles */
-/* main {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
-main section {
-    margin-top: 10px;
-} */
-
 /* Section-2 related styles */
 .section-2 {
     padding: 130px;
@@ -121,7 +111,7 @@ main section {
     border-radius: 45% 45% 0% 0%;
 }
 
-/* about section styles */
+/* About section styles */
 .about {
     padding: 30px;
     border-radius: 10px;
@@ -199,34 +189,26 @@ main section {
     margin: 0 30px;
 }
 
-/* .instagram .flower-img-01 .flower-img-04 .flower-img-05 .flower-img-06 {
-    width: 250px;
-} */
-
 .flower-img-01 {
     background-color: #A7216226;
-    /* height: 450px; */
     margin: 0 7px 90px 325px;
     width: 225px;
 }
 
 .flower-img-04 {
     background-color: #0597A026;
-    /* height: 450px; */
     margin: 0 7px 90px 7px;
     width: 225px;
 }
 
 .flower-img-05 {
     background-color: #477D1126;
-    /* height: 450px; */
     margin: 0 7px 90px 7px;
     width: 225px;
 }
 
 .flower-img-06 {
     background-color: #477D1126;
-    /* height: 450px; */
     margin: 0 325px 90px 7px;
     width: 225px;
 }
@@ -267,4 +249,30 @@ main section {
 
 .form {
     display: flex;
+}
+
+/* Footer section styles */
+.footer {
+    padding: 30px;
+    background: #111010;
+}
+
+.text-secondary {
+    color: #FFFFFF;
+}
+
+.text-description {
+    color: #FFFFFFE5;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 385;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    color: #FFFFFF66;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 385;
+    margin-bottom: 30px;
 }
