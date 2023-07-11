@@ -23,7 +23,7 @@ body {
     text-align: center;
     font-size: 30px;
     font-weight: 750;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .section-description {
@@ -31,7 +31,7 @@ body {
     text-align: center;
     font-size: 13px;
     font-weight: 385;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 /* Section-1 related styles */
@@ -130,9 +130,10 @@ main section {
     width: 900px;
 }
 
-/* Section-3 related styles */
-.section-3 {
+/* Section-4 related styles */
+.section-4 {
     background-color: #E554730D;
+    margin-bottom: 90px;
 }
 
 .hot-deal {
@@ -181,4 +182,89 @@ main section {
     font-weight: 525;
     padding: 13px 30px;
     margin-left: 150px;
+}
+
+/* Section-5 related styles */
+.section-2 {
+    padding: 130px;
+    border-radius: 10px;
+    background: white;
+    margin: 10px 0px;
+    height: 575px;
+}
+
+.instagram-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+}
+
+/* .instagram .flower-img-01 .flower-img-04 .flower-img-05 .flower-img-06 {
+    width: 250px;
+} */
+
+.flower-img-01 {
+    background-color: #A7216226;
+    /* height: 450px; */
+    margin: 0 7px 90px 325px;
+    width: 225px;
+}
+
+.flower-img-04 {
+    background-color: #0597A026;
+    /* height: 450px; */
+    margin: 0 7px 90px 7px;
+    width: 225px;
+}
+
+.flower-img-05 {
+    background-color: #477D1126;
+    /* height: 450px; */
+    margin: 0 7px 90px 7px;
+    width: 225px;
+}
+
+.flower-img-06 {
+    background-color: #477D1126;
+    /* height: 450px; */
+    margin: 0 325px 90px 7px;
+    width: 225px;
+}
+
+.section-6 {
+    background-color: #FFF8F3;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px 100px;
+}
+
+.form-title {
+    margin: 0 325px 90px 325px;
+}
+
+.form input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 1px solid #FFF;
+    width: 100%;
+}
+
+.btn-3 {
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 525;
+    padding: 13px 30px;
+    margin-left: 25px;
+}
+
+.form {
+    display: flex;
 }
