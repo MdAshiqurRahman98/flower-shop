@@ -21,14 +21,15 @@ body {
 .section-title {
     color: #272727;
     text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 750;
 }
 
 .section-description {
-    color: #757575;
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 13px;
+    font-weight: 385;
 }
 
 /* Section-1 related styles */
@@ -54,7 +55,7 @@ body {
 .banner-title {
     color: #272727;
     font-size: 50px;
-    font-weight: 795;
+    font-weight: 799;
     margin-top: 5px;
     margin-bottom: 25px;
 }
@@ -64,4 +65,55 @@ body {
     font-weight: 385;
     color: rgba(39, 39, 39, 0.60);
     margin-bottom: 25px;
+}
+
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 10px;
+}
+
+/* Featured flowers section styles */
+.section-2 {
+    padding: 130px;
+    border-radius: 10px;
+    background: white;
+    margin: 10px 0px;
+}
+
+.featured-flowers-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-flowers {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    color: #272727;
+}
+
+.flower-img-6 {
+    background-color: #A7216226;
+    height: 450px;
+    margin-right: 19px;
+    border-radius: 45% 45% 0% 0%;
+}
+
+.flower-img-5 {
+    background-color: #0597A026;
+    height: 450px;
+    margin-right: 19px;
+    border-radius: 45% 45% 0% 0%;
+}
+
+.flower-img-7 {
+    background-color: #477D1126;
+    height: 450px;
+    border-radius: 45% 45% 0% 0%;
 }
